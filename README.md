@@ -25,7 +25,7 @@ I am not `responsible` for the possibility of an account being `banned`!
 
 ```bash
 git clone https://github.com/mobplay-script/Pharos-Tools.git
-cd pharos
+cd Pharos-Tools
 ```
 
 - Install Dependency
