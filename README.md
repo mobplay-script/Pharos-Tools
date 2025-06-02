@@ -24,7 +24,7 @@ I am not `responsible` for the possibility of an account being `banned`!
 - Clone Repository
 
 ```bash
-git clone https://github.com/Hunga9k50doker/pharos.git
+git clone https://github.com/mobplay-script/Pharos-Tools.git
 cd pharos
 ```
 
