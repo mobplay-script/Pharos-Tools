@@ -251,7 +251,7 @@ class ClientAPI {
 
   async auth() {
     const signedMessage = await this.wallet.signMessage("pharos");
-    return this.makeRequest(`${this.baseURL}/user/login?address=${this.itemData.address}&signature=${signedMessage}&invite_code=${settings.REF_CODE}`, "post", null, { isAuth: true });
+    return this.makeRequest(`${this.baseURL}/user/login?address=${this.itemData.address}&signature=${signedMessage}&wallet=OKX+Wallet&invite_code=${settings.REF_CODE}`, "post", null, { isAuth: true });
   }
 
   async getUserData() {
